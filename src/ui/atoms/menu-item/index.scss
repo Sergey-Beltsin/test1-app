@@ -1,0 +1,31 @@
+.menu__item {
+
+  &:not(:last-child) {
+    margin-right: 150px;
+  }
+
+  &__descr {
+    display: block;
+    margin-top: 10px;
+
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &__link {
+    display: block;
+    padding: 10px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    color: inherit;
+    text-decoration: none;
+
+    transition: 0.2s ease;
+
+    &:hover {
+      border-color: $main;
+    }
+  }
+}

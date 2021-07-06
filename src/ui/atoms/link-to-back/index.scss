@@ -1,0 +1,30 @@
+.page-main__go-back {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  &__btn {
+    padding: 10px;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: 0.2s ease;
+
+    &:hover {
+      border-color: $main;
+    }
+
+    & svg {
+      position: relative;
+      top: 3px;
+
+      transform: rotate(180deg);
+    }
+  }
+
+  &__descr {
+    margin-left: 10px;
+  }
+}
