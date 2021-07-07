@@ -18,9 +18,24 @@
   url("../../lib/fonts/Roboto/Bold/Roboto-Bold.woff") format("woff");
 }
 
+@font-face {
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
+  font-display: swap;
+
+  src: url("../../lib/fonts/Roboto/Medium/Roboto-Medium.woff2") format("woff2"),
+  url("../../lib/fonts/Roboto/Medium/Roboto-Medium.woff") format("woff");
+}
+
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: normal;
+  color: $dark;
+}
+
+.page-main {
+  margin-bottom: 80px;
 }
 
 .main__block {

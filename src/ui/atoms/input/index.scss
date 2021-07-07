@@ -1,0 +1,54 @@
+.input {
+  display: block;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  &__main-wrapper {
+    display: flex;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+
+    min-width: 100px;
+    padding: 5px;
+    margin: 0 10px;
+
+    position: relative;
+
+    background-color: $grey;
+    border-bottom: 1px solid $grey-secondary;
+
+    font-size: 16px;
+  }
+
+  &__clear-icon {
+    margin-left: 10px;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__button {
+    padding: 0 16px;
+
+    background-color: transparent;
+    border: 1px solid $tertiary;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-size: 16px;
+
+    transition: 0.2s ease;
+
+    &:hover {
+      background-color: $tertiary;
+
+      color: $white;
+    }
+  }
+}

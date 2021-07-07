@@ -1,0 +1,38 @@
+.tooltip {
+  margin-left: 20px;
+
+  position: relative;
+
+  &__trigger {
+    padding: 0;
+    padding-top: 2px;
+    visibility: hidden;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &[data-visible="true"] {
+      visibility: visible;
+    }
+  }
+
+  &__content {
+    padding: 10px;
+    margin-bottom: 7px;
+
+    background-color: $tertiary-some-opacity;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px 3px rgba(14, 22, 28, 0.2);
+
+    color: $white;
+
+    &__wrapper {
+      width: 200px;
+
+      position: absolute;
+      bottom: 100%;
+      left: -90px;
+    }
+  }
+}

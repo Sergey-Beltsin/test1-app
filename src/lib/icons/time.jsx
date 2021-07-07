@@ -1,5 +1,11 @@
 export const TimeIcon = () => (
-  <svg id="Capa_1" enableBackground="new 0 0 512 512" height="70" viewBox="0 0 512 512" width="70" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    enableBackground="new 0 0 512 512"
+    height="70"
+    viewBox="0 0 512 512"
+    width="70"
+    xmlns="http://www.w3.org/2000/svg"
+  >
     <g>
       <circle cx="256" cy="256" fill="#eab14d" r="256" />
       <path d="m256 0c-4.57 0-9.111.125-13.622.361 135.052 7.082 242.379 118.824 242.379 255.639s-107.327 248.557-242.379 255.639c4.511.236 9.052.361 13.622.361 141.385 0 256-114.615 256-256s-114.615-256-256-256z" fill="#e49542" />
