@@ -33,6 +33,23 @@
     border-top-right-radius: 4px;
     background-color: $secondary;
 
+    &__close-icon {
+      padding: 0;
+
+      position: absolute;
+      top: 4px;
+      right: 8px;
+
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+
+      & svg path {
+        fill: $grey;
+      }
+    }
+
     &__icon {
       position: absolute;
       bottom: 5px;

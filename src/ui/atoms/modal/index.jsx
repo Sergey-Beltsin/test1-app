@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { useOutsideAlerter } from '../../../lib/hooks';
-import { QuestionIcon } from '../../../lib/icons';
+import { CloseIcon, QuestionIcon } from '../../../lib/icons';
 
 export const Modal = ({
   isOpen,
@@ -16,6 +16,9 @@ export const Modal = ({
     <div className="modal">
       <div className="modal__wrapper" ref={wrapperRef}>
         <div className="modal__header">
+          <button className="modal__header__close-icon" type="button" onClick={onClose}>
+            <CloseIcon />
+          </button>
           <div className="modal__header__icon">
             {icon}
           </div>

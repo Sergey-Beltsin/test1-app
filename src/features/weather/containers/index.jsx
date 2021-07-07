@@ -166,7 +166,7 @@ export const Weather = () => {
           <>
             <Modal
               isOpen={isModal}
-              onClose={() => setIsModal(false)}
+              onClose={onClickWrongCity}
               title="Это ваш город?"
             >
               <div className="weather__modal__wrapper">
